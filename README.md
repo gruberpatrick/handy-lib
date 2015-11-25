@@ -23,9 +23,11 @@ Simplify File operations. Supports Local Files, HTTP and HTTPS.
 
 **std::string filePostContents( std::string *location*, char *params* )** : Send File POST Request. Supported are HTTP and HTTPS. Return the Content as a String.
 
-**std::vector<std::string> fileGetLines( std::string *location* )** : Same functionallity as fileGetContents. Return the Content as Lines.
+**std::vector <std::string> fileGetLines( std::string *location* )** : Same functionallity 
+as fileGetContents. Return the Content as Lines.
 
-**std::vector<std::string> filePostLines( std::string *location*, char *params*  )** : Same functionallity as filePostContents. Return the Content as Lines.
+**std::vector <std::string> filePostLines( std::string *location*, char *params*  )** : 
+Same functionallity as filePostContents. Return the Content as Lines.
 
 **bool filePutContents( std::string *location*, std::string *content* )** : Save Data to a local File.
 
